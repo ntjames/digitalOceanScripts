@@ -6,7 +6,7 @@ gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9
 gpg -a --export E084DAB9 | sudo apt-key add -
 
 ## note added r-dev
-sudo apt-get update
+sudo apt-get update 
 sudo apt-get -y install r-base r-base-dev
 
 ## add swap space to install stuff
